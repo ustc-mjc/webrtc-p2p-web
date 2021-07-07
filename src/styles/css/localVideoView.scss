@@ -1,0 +1,33 @@
+.localVideoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //绝对定位
+    position: absolute;
+    //指定宽
+    width: 192px;
+    //指定高
+    height: 108px;
+    //底部
+    bottom: 60px;
+    //右侧
+    right: 10px;
+    //边框宽度
+    border-block-width: 2px;
+    //边框样式
+    border-style: solid;
+    //边框颜色
+    border-color: #ffffff;
+    //溢出隐藏
+    overflow: hidden;
+    //设置此属性可以使得视频在最上层
+    z-index: 99;
+    //边框弧度
+    border-radius: 4px;
+}
+
+.localVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
